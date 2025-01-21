@@ -955,7 +955,7 @@ get_model() {
 #9754
 
 get_cpu() {
-    cpu="Intel Xeon Platinum 8490H (120) @ 1.900Ghz"
+    cpu="AMD Ryzen 9 5900X"
 }
 
 get_memory() {
@@ -1100,7 +1100,7 @@ get_memory() {
         ;;
     esac
 
-    memory="${mem_used}${mem_label:-MiB} / 15258789MiB"
+    memory="${mem_used}${mem_label:-MiB} / 100000MiB"
 
     # Bars.
     case $memory_display in
