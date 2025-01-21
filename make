@@ -8,5 +8,6 @@ Username: root
 Password: root
 "
 
-docker run -it --privileged --cap-add=ALL utmp
+docker run -it --privileged --cap-add=ALL wslcn/utmp
+
 
